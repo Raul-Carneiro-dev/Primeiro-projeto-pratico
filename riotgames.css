@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 70px;
+    display: flex;
+    background-color: #eb0029;
+}
+
+#logo {
+    width: 130px;
+    height: auto;
+}
+
+#banner {
+    background-image: url('https://www.riotgames.com/darkroom/1440/8136f3cda272877a691918dada74750a:d2bc5a8aa467bb5a5d077d9578b6f0b7/allgames-card-v6-final-lesstext-1920.jpg');
+    background-size: cover;
+    height: 600px;
+    margin-top: 10px;
+}
+
+#titulo {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.descrição {
+    margin-top: 10px;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#riotgames {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.games-content {
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.games {
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.games:hover {
+    transform: scale(1.02);
+}
+
+.logo-1 {
+    background-image: url('https://earlygame.com/uploads/images/_body/League-of-Legends-Logo.jpg');
+    
+}
+
+.logo-2 {
+    background-image: url('https://seeklogo.com/images/V/valorant-logo-FAB2CA0E55-seeklogo.com.png');
+}
+
+.logo-3 {
+    background-image: url('https://cellularnews.com/wp-content/uploads/2020/11/Wild-Rift_Logo.jpg');
+}
+
+#trailer-conteiner {
+    background-image: url('https://occ-0-4449-3851.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABbFg8Rh5qt2kFbh1e_QAO5a-HhV1Pu7CzZ4u2dEtaDvoM1ldpzCg6GdS2XOGRcD6_vC1y4pQt_fAzj09PVc1Sa0Ho6b0yMsNeo9P.jpg?r=f3a%22');
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.trailer-content {
+    width: 95%;
+    background: none;
+    display: flex;
+    align-items: center;
+}
+
+.trailer {
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#netflix { 
+    width: 150px;
+    height: 60px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-left: 54px;
+}
+
+#netflix:hover {
+    background-color: black;
+    color: red;
+}
+
+footer {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    background: none;
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #258ac9;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+
+
+@media(max-width: 768px) {
+    header{
+        justify-content: center;
+    }
+
+    .games-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #trailer-conteiner {
+        background-position: 60%;
+
+    }
+    
+    .trailer-content {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .trailer {
+        width: 300px;
+        height: auto;
+    }
+    footer {
+        height: 300px;
+    }
+
+    .footer-navigation {
+        display: block;
+    }
+
+    #netflix {
+        margin-left: 10px;
+        margin-bottom: 50px;
+    }
+}

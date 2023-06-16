@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    color: aliceblue;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    cursor: pointer;
+    transition: .5s;
+}
+
+li:hover {
+    color: #258ac9;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+#cinematic-container {
+    height: 100%;
+    background-image: url('https://pbs.twimg.com/media/EaUnExCU8AAalKe.jpg');
+    display: flex;
+    margin-top: 10px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cinematic-content{
+    background: none;
+    width: 100%;
+    height: 100%;
+}
+
+.cinematic {
+    background: none;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+h1 {
+    background: none;
+}
+
+.video {
+    width: auto;
+    height: 500px;
+    border-radius: 10px;
+}
+
+footer {
+    color: none;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color:white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px) {
+    footer {
+        height: 300px;
+    }
+    nav {
+        display: none;
+    }
+
+    .footer-navigation {
+        display: block;
+    }
+
+    .cinematic {
+        font-size: 19px;
+        font-size: 10px;
+    }
+
+    .video {
+        width: 300px;
+        height: auto;
+    }
+}

@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    background-color: black;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #258ac9;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+#hero-container {
+    width: 100%;
+    height: 100%;
+    background-image: url('https://nexus.leagueoflegends.com/wp-content/uploads/2019/12/02_Summoner_s_Rift_hi182k3q611izhk9dbql.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.hero-content {
+    background: none;
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 52px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    row-gap: 4px;
+
+}
+
+.hero {
+    background: none;
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: 80% 50%;
+    border: 1px solid white;
+}
+
+.hero-1 {
+    background-image: url('https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt81d4f3afc6931dfe/5f4def524a7bbc279b844b98/champion_overview_jinx_og.png');
+
+}
+.hero-2 {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e632e5f3-ea51-4a14-a0fe-3478869513d3/df0a74y-382c1c92-4b96-47e7-90d3-93e1e8f87475.png/v1/fill/w_890,h_897,strp/diana___league_of_legends_render_png_by_screwbattle_df0a74y-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAzMiIsInBhdGgiOiJcL2ZcL2U2MzJlNWYzLWVhNTEtNGExNC1hMGZlLTM0Nzg4Njk1MTNkM1wvZGYwYTc0eS0zODJjMWM5Mi00Yjk2LTQ3ZTctOTBkMy05M2UxZThmODc0NzUucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.0fISqo_IN981pUQNPNiFqpStpwGw-bFfO8BNn7agN0Y');
+}
+.hero-3 {
+    background-image: url('https://i.pinimg.com/originals/c5/59/19/c559198ec02bf1b0a619ce63a43f9554.png');
+}
+.hero-4 {
+    background-image: url('https://pbs.twimg.com/media/EjlPj8XXYAIMPUT.png');
+}
+.hero-5 {
+    background-image: url('https://www.pngmart.com/files/21/Ahri-League-of-Legends-Download-PNG-Image.png');
+    background-position: 40% 8%;
+}
+.hero-6 {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0bc844de-15e9-4dc5-9afa-5fad7cadb90c/d9op5z0-7a9465f8-d972-4dd3-80d8-8bf36a03d01b.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBiYzg0NGRlLTE1ZTktNGRjNS05YWZhLTVmYWQ3Y2FkYjkwY1wvZDlvcDV6MC03YTk0NjVmOC1kOTcyLTRkZDMtODBkOC04YmYzNmEwM2QwMWIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KsUQQV_PsSyphX62uOXfUCdpLay9DkKG0Lyw0D6dqFw');
+    background-position: 70% 50%;
+}
+.hero-7 {
+    background-image: url('https://pbs.twimg.com/media/E1Yb5xtWEAIJPmb.png');
+    background-position: 40% 50%;
+}
+.hero-8 {
+    background-image: url('https://i.pinimg.com/originals/b1/bc/f5/b1bcf54e735a689531318ffaeaf9120e.png');
+    background-position: 60% 50%;
+}
+.hero-9 {
+    background-image: url('https://i.pinimg.com/originals/7c/f1/30/7cf130f499445a3edf1594304043cf39.png');
+}
+.hero-10 {
+    background-image: url('https://pbs.twimg.com/media/EghEocdU8AA7tGC.png');
+    background-position: 20% 20%;
+}
+.hero-11 {
+    background-image: url('https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt3efee145a07dc9a7/5f4defe82931d5251031459e/Champion_ashe_HP.png');
+    background-position: 50% 30%;
+}  
+.hero-12 {
+    background-image: url('https://purepng.com/public/uploads/large/purepng.com-classic-ziggs-skinsplashartchampionleague-of-legendsskinziggs-331519931642dmmy3.png');
+}
+
+footer {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media(max-width: 768px) {
+    footer {
+        height: 300px;
+    }
+    nav {
+        display: none;
+    }
+
+    .footer-navigation {
+        display: block;
+    }
+
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 4px;
+        margin-left: 0;
+        
+    }
+
+
+}
