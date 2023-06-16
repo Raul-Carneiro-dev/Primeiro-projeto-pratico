@@ -53,8 +53,6 @@ li:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
 }
 
 .hero-content {
@@ -66,7 +64,6 @@ li:hover {
     margin-top: 10px;
     margin-bottom: 10px;
     row-gap: 4px;
-
 }
 
 .hero {
@@ -80,7 +77,6 @@ li:hover {
 
 .hero-1 {
     background-image: url('https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt81d4f3afc6931dfe/5f4def524a7bbc279b844b98/champion_overview_jinx_og.png');
-
 }
 .hero-2 {
     background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e632e5f3-ea51-4a14-a0fe-3478869513d3/df0a74y-382c1c92-4b96-47e7-90d3-93e1e8f87475.png/v1/fill/w_890,h_897,strp/diana___league_of_legends_render_png_by_screwbattle_df0a74y-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAzMiIsInBhdGgiOiJcL2ZcL2U2MzJlNWYzLWVhNTEtNGExNC1hMGZlLTM0Nzg4Njk1MTNkM1wvZGYwYTc0eS0zODJjMWM5Mi00Yjk2LTQ3ZTctOTBkMy05M2UxZThmODc0NzUucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.0fISqo_IN981pUQNPNiFqpStpwGw-bFfO8BNn7agN0Y');
@@ -164,8 +160,5 @@ span {
         align-items: center;
         row-gap: 4px;
         margin-left: 0;
-        
     }
-
-
 }

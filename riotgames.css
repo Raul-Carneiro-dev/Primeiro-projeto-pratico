@@ -32,7 +32,6 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
 
 .descrição {
@@ -76,7 +75,6 @@ header {
 
 .logo-1 {
     background-image: url('https://earlygame.com/uploads/images/_body/League-of-Legends-Logo.jpg');
-    
 }
 
 .logo-2 {
@@ -192,7 +190,6 @@ li:hover {
 
     #trailer-conteiner {
         background-position: 60%;
-
     }
     
     .trailer-content {

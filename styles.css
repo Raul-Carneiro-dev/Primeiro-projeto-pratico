@@ -43,7 +43,6 @@ li:hover {
     height: auto;
 }
 
-
 #banner {
     background-image: url('https://images.contentstack.io/v3/assets/blt370612131b6e0756/bltcdaae394f8be098d/60635f5bb317b50fd8106d2f/wr-article-torneiosdecomunidade-banner.jpg');
     background-position: 50% 50%;
@@ -51,7 +50,6 @@ li:hover {
     width: 100%;
     height: 600px;
     border-bottom: solid 2px black;
-
 }
 
 #paralaxe {
@@ -164,7 +162,6 @@ li:hover {
 
 .banner-1 {
     background-image:url('https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_0.jpg');
-
 }
 
 .banner-2 {
@@ -174,12 +171,10 @@ li:hover {
 
 .banner-3 {
     background-image:url('https://images.contentstack.io/v3/assets/blt187521ff0727be24/blt41c476486b063ef8/60ee13df31f9ee2ab08a4dfe/Yasuo_0.jpg');
-
 }
 
 .banner-4 {
     background-image:url('https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_0.jpg');
-
 }
 
 footer {
@@ -266,6 +261,4 @@ span {
         align-items: center;
         margin-top: 150px;
     }
-
-
 }
